@@ -1,6 +1,6 @@
 <?php
 
-namespace TomGuasta\PhpmdWordpress;
+namespace TomGuasta\PhpmdWordpress\Rules;
 
 use PHPMD\AbstractNode;
 use PHPMD\AbstractRule;
