@@ -1,0 +1,18 @@
+{
+    "name": "tomguastapaglia/phpmd-wordpress",
+    "description": "phpmd rules to add snake_case validation for Wordpress coding style convention",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Tom Guastapaglia",
+            "email": "tomguasta@yahoo.fr"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TomGuasta\\PhpmdWordpress\\": "src/"
+        }
+    },
+    "require": {}
+}

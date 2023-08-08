@@ -1,0 +1,4 @@
+# phpmd Wordpress
+
+phpmd rules to add snake_case validation for Wordpress coding style convention.
+
