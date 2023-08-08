@@ -14,5 +14,7 @@
             "TomGuasta\\PhpmdWordpress\\": "src/"
         }
     },
-    "require": {}
+    "require-dev": {
+        "phpmd/phpmd": "^2.13"
+    }
 }
