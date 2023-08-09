@@ -18,7 +18,7 @@ class SnakeCaseParameterName extends AbstractRule implements MethodAware, Functi
     public function apply(AbstractNode $node)
     {
         foreach ($node->getParameters() as $parameter) {
-            if (!preg_match('/^[a-z_]+$/', $parameter->getName())) {
+            if (!preg_match('/^\$[a-z_]+$/', $parameter->getName())) {
                 $this->addViolation(
                     $node,
                     array(

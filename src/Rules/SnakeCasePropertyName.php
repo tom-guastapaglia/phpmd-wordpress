@@ -17,7 +17,7 @@ class SnakeCasePropertyName extends AbstractRule implements ClassAware, TraitAwa
      */
     public function apply(AbstractNode $node)
     {
-        $pattern = '/^[a-z_]+$/';
+        $pattern = '/^\$[a-z_]+$/';
 
         foreach ($node->getProperties() as $property) {
             $propertyName = $property->getName();
